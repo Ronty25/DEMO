@@ -1,0 +1,51 @@
+web Technologies: the technology used to design and develop the web pages
+     1.html->hypertext markup language- structure of the web pages
+     2.css->cascading style sheet- design/style of web pages
+     3.js->javascript- logic/functionality of web pages
+
+     HTML:hypertext markup language
+         :used to provide structure/layout of the web pages
+         :introduced ny Tim berners-lee
+         :Html files will save with .html extension
+
+    Tags: tags are used to define the structure of a web pages
+        : tags are two types
+                  1.paired tags/container tags
+                  2.upaired tags/non container tags
+
+    paired tags: it consist of opening tags and closing tags
+                  <tagName>content</tagName>
+          ex: div, p, i, small, heading tags, etc
+
+    unpaired tags: it consist of opening tag only
+                    <tagName/>
+         ex: img, br, hr, etc
+
+    element: is a combination of opening tag, closing tag and content
+            <tagName>content</tagName>
+
+    comment tag: it is used to add comment in the web page
+               : the content of the comment will not be displayed in the web page
+            <!--commment content->
+
+    attributes: it is used to add additional information to the tag
+              : used inside opening tag
+              : the content of attribute will not be displayed in the web pages
+              ex: scr, href, alt, title, style, etc
+
+    block level elements: the content of the block level element will be displayed in a new line
+                        : it occupies the full width of the page
+                ex: div, h1, h2, h3. h4, h5, h6, ul, ol, etc
+    inline level element: the content of the inline level element will be displayed in the same line
+                        : it does not occupy full width of the page
+                        : it occupies required space
+                ex: span, a, img, input, button, etc
+
+
+
+    list: the content of the list will be displayed in a new line
+    types of list
+                1.ordered list
+                2.unordered list
+                3.data definition/discription list
+                4.nested list

@@ -1,0 +1,101 @@
+Java FSD
+1.Frontend: html,css,javascript,(React/Rngular)
+   1.user experience 
+   2.user interaction
+   3.user interface
+html is the structure of a webpage
+css is the styling/design of the webpage
+javascript validate the information on the web page
+react request a change in data base in reaction to user action in the web page
+java process information between frontend and database
+2.Backend:java,core-java,jbdc,hibernate,spring,springmvc and spring boot
+3.Database Management System: sql and MySQL
+Data is a collection of raw facts
+
+internet--- network of computer where we can fetch/recieve data
+web--- is a protocol, it takes the url from the user and connects it to the internet, it acts as a middle man between the user and the internet
+   1.http web (htper text transfer protocol)
+   2.https web (hyper text transfer protocol secure)
+ip address a unique number given to a device
+domain name is the body of a url that is used to access the internet ex; gmail.com
+dns is the connection of the domain name and the internet, that is it helps your computer to find the right server using the website name
+
+
+HTML 
+---- 
+HTML5
+Features
+1. structuring a web page
+2. create table forms
+3. create animations
+4. create 3D and 4D images
+5. create svg, canvas and geolocation
+
+Structure of html
+1.Root--- html
+2.Head
+3.Body
+
+<html>----tag
+head tag gives meta information
+meta give page information
+
+website a collection of webpages
+web page is whatever that is displayed on a website
+browser a collection of website
+UTF   (unified transform format)
+
+tags under <head>
+1.head
+2.meta
+3.title
+4.style --- internal css
+5.link --- external css
+6.script ---- internal or external js
+7.noscript --- only used when sript can not run on a browser
+8.base
+
+<body>
+anything that displays in the browsers body
+1. heading tag h1 to h6
+2. paragraphs 
+3. preline
+4. elements ---- combination of tag and attribute
+      1.inline ----- occupies required space in the web page
+      ex span, img, formatting tag etc
+             FORMATTING TAG 
+                 1. <bold>
+                 2. <strong>
+                 3. <emphasis>
+                 5 <delete>
+                 6. <mark>
+                 7. <underline>
+                 8. <abbreviation>
+                 9. <quotation>
+
+      2.block-line ---- occupies the entire space in the web page
+              1. <div>
+              2. <table>
+              3. <form>
+              4. <svg>
+      3.special --
+
+
+
+TABLE
+-----
+table is a combination of rows and columns
+we need a table to hava a structured form of data
+
+<table> table tag
+<td> to enter a data
+<tr> to enter data in a row
+<th> to enter data in columns
+<caption> to give a table name
+<thead> to deal with the top column section
+<tbody> to deal with the body section
+<tfoot> to deal with the bottom column section
+
+attributes
+colspam
+rowspan
