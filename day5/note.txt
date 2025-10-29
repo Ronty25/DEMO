@@ -1,0 +1,82 @@
+form
+form is used to record user information from the browser we use form
+<form> tag has two attribute
+  1. action--- action records the data given by the user
+  2. method---- 1. get method
+                    browser will be seen on browser url
+                    the size is very limited
+                    there is no security for the data
+                2. post method
+                   the data will be seen on the browser body
+                   security is provided to the data
+                
+<form> tags 
+are tags that will be used inside the form
+1.label tag
+   attribute; for---
+2.input tag
+   1.type
+      text, number, mail, password, filetype, color, date, month, year,img, checkbox, radio, submit
+   2.name ---- connects to data base to get information
+   3.value
+   4.placeholder
+   5.required
+   6.id
+
+3.select tag
+4option tag
+5.textarea tag
+6.button tag
+7.field tag
+8.legend tag
+
+
+
+Table Creation Tags:
+-----------------
+
+1. <table> tag - used to create a table
+2. <thead> tag - used to create the header of the table
+3. <tbody> tag - used to create the body of the table
+4. <tfoot> tag - used to create the footer of the table
+5. <tr> tag - used to create a row
+6. <th> tag - used to create a header cell
+7. <td> tag - used to create a data cell
+8. <caption> tag - used to add caption for the table
+
+Marging of a cell
+---------------
+
+1. colspan attribute: used to merge cell horizontally
+2. rowspan attribute: used to merge cell vertically
+
+
+attribute of table tags:
+----------------------
+
+1. border - used to provide border
+2. cellspacing - used to provide space between cells
+3. allign - used to provide allign the content horizontally (left, centre, right)
+4. background color - used to provide background color
+5. style - used to provide styling
+
+pseudo classes:
+--------------
+         -pseudo classes are used to add styles to element based on their state or behaviour
+         -indicated with : and followed by the name pseudo classes
+         -ex: :hover, :active, :visited, :link, etc
+
+link states:
+----------
+unvisited- blue :link is an attribute used to style link when it has not been visited
+active- red :active is an attribute used to style link when it is active
+visited- purple :visited is an attribute used to style link whe visited 
+
+
+pseudo elements:
+------------
+        - it is used style to specific part of the element
+        - it is indicated with :: followed by the name of the pseudo element
+        - ex: ::before, ::after, ::first-line, ::first-letter, etc
+
+note:pseudo elements are not supported for inline elements (span)

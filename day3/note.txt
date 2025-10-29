@@ -64,3 +64,8 @@ conversion of block to inline level element:
         display:inline-block; it supports heigh and width
         or 
         display:inline; it wont support width and height
+
+
+
+
+        validator.w3.org  this site is used to check your html page if theres any error

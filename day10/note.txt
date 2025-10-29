@@ -1,0 +1,60 @@
+responsive web design
+--------------------
+
+
+absolute sizes(fixed sizes):
+px (pixels)
+cm (centimeters)
+mm (milimeters)
+in (inches)
+pt (points)
+pc (pices)
+
+relative sizes:
+- em (em)
+- rem (root em)
+- vw (viewport width)
+- vh (viewport height)
+- vmin (minimum of viewport width or height)
+- vmax (maximum of viewport width or height)
+
+breakpoints (common sizes):
+- Small; (sm):  < 640px (mobile)
+- Medium (md):   < 641px - 768px (tablet)
+- Large (lg):    769px - 1024px (laptops)
+- Extra Large (xl): 1025px - 1280px (desktop)
+- Extra Extra Large (xxl):  1280px (large screens)
+
+Applications
+- Websites that work on all devices (mobile, tablet, desktop)
+- E-commerce platforms
+- News and blog sites
+- Daskboards and admin panels
+- Portfolio and business sites
+
+Media Quaries;
+------------
+Media queries are used to apply diffeent styles to different screen sizes.
+
+Syntax:
+
+@media (min-width: 768px) {
+    /* styles for screens with a minimum width of 768px */
+}
+@media (max-width: 1024px) {
+    /* styles for screens with a maximum width of 1024px */
+}
+@media (orientation: portrait) {
+    /* styles for screens in portrait orientation */
+}
+@media (orientation: landscape) {
+    /* styles for screens in landscape orientation */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* styles for screens with a width of 768px and 1024px */
+}
+@supports (display: grid) {
+    /* styles for browser that supports CSS Grid "/
+}
+
+

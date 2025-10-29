@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            min-height: 400px;
+            background-color: lawngreen;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            
+        }
+
+        .item{
+            width: 400px;
+            height: 100px;
+            background-color: magenta;
+        }
+
+        .item:nth-child(4){
+            background-color: red;
+            /* flex-shrink: 3; */
+        }
+        .item:nth-child(3){
+            background-color: seagreen;
+            /* flex-shrink: 2; */
+        }
+        .item:nth-child(2){
+            background-color: blue;
+            /* flex-shrink: o; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      
+
+    </div>
+</body>
+</html>

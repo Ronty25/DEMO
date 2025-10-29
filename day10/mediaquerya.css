@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.container{
+    display: grid;
+    height: 70vh;
+    grid-template-areas: "navbar navbar navbar"
+                         "section1 section1 aside"
+                         "section1 section1 aside"
+                         "section2 section2 aside"
+                         "footer footer footer";
+                         gap: 10px;
+}
+
+nav{
+   grid-area: navbar;
+   background-color: steelblue;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.section1{
+    grid-area: section1;
+    background-color: tomato;
+}
+.section2{
+    grid-area: section2;
+    background-color: yellow;
+}
+aside{
+    grid-area: aside;
+    background-color: teal;
+}
+footer{
+    grid-area: footer;
+    background-color: wheat;
+}
+    /* tablet media queries */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .container{
+    display: grid;
+    height: 70vh;
+    grid-template-areas: "navbar navbar navbar"
+                         "section1 section1 section1"
+                         "aside aside aside"
+                         "section2 section2 section2"
+                         "footer footer footer";
+                         
+}
+ul{
+    justify-content: flex-end;
+}
+} 
+/* mobile media queries */
+@media screen and (max-width: 640px) {
+    aside{
+        background-color: aquamarine;
+    }
+     .container{
+    display: grid;
+    height: 70vh;
+    grid-template-areas: "navbar navbar navbar navbar"
+                         "section1 aside aside section2"
+                         "section1 aside aside section2"
+                         "section1 aside aside section2"
+                         "footer footer footer footer";
+     }                        
+}

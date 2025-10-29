@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query 2</title>
+    <style>
+        div{
+             background-color: lightblue;
+             border: 1px solid black;
+             width: 200px;
+             height: 200px;
+            }
+            /* width>height */
+            @media (orientation: landscape) {
+                div{
+                    border-radius: 50%;
+                    background-color: lightcoral;
+                }
+                
+            }
+            /* height>width */
+            @media (orientation: portrait) {
+                div{
+                    /* border-radius: 50%; */
+                    background-color: lightgreen;
+                }
+                
+            }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

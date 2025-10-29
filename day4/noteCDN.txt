@@ -18,3 +18,16 @@ git: it is a version control system where we can store modify and read the data
     git commit -m "text"
     git remote add origin paste your github link here
     git push origin master or git push origin main
+
+    OR
+    
+    check your repistory for instruction
+
+
+    echo "# Ronty" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ronty25/Ronty.git
+git push -u origin main

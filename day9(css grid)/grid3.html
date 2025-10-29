@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: grid;
+            width: fit-content;
+            height: 425px;
+            border: 1px solid black;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            padding: 10px;
+            gap: 10px;
+
+        }
+        .item{
+            /* background-color: olive; */
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+        .one{
+            grid-column-start: 1;
+            grid-column-end: 6;
+            background-color: wheat;
+        }
+        .two{
+             grid-column-start: 1;
+            grid-column-end: 4;
+            background-color:lightgreen;
+        }
+        .three{
+           grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: cornflowerblue;
+        }
+        .four{
+             grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: dodgerblue;
+        }
+        .five{
+             grid-column-start: 1;
+            grid-column-end: 6;
+            background-color: wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">Navbar</div>
+        <div class="item two">Section1</div>
+        <div class="item three">Section2</div>
+        <div class="item four">Aside</div>
+        <div class="item five">Footer</div>
+       
+
+    </div>
+</body>
+</html>

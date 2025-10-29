@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2 task</title>
+    <style>
+        form{
+            border: 2px solid black;
+           width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="https://httpbin.org/get">
+       <fieldset>
+        <legend>Basic Information</legend>
+        <label for="name">Name</label>
+        <input type="name" placeholder="Enter your name"><br><br>
+        <label for="name">Father's Name</label>
+        <input type="text" placeholder="Enter your father's name" id="name" name="father's name"><br><br>
+        <label for="name">Mother's Name</label>
+        <input type="text" id="name" name="mother's name" placeholder="Enter your mother's name"><br><br>
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" min="18" max="50"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">Male 
+        <input type="radio" id="female" name="gender"  value="female" checked>Female
+        <input type="radio" id="other" name="gender" value="other">Other
+        <br><br>
+       <label for="dob">Date of Birth</label>
+       <input type="date" id="dob" name="userdob"><br><br>
+       <label for="profile">Profile Picture</label>
+       <input type="file" id="profile" name="userprofile" accept="image/*"><br><br>
+       </fieldset>
+       <fieldset>
+        <legend>contact Information</legend>
+        <label for="phone number">Phone Number</label>
+        <input type="tell" id="phone number" name="userphone" placeholder="Enter your phone number" pattern="[0-9]{10}"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="useremail" placeholder="Enter your email" ><br>
+        <label for="adress">Adress</label>
+        <textarea name="" id="adress" name="useradress" rows="4" cols="50" placeholder="Enter your address"></textarea>
+       </fieldset>
+         <button>Submit</button>
+         <button>Reset</button>
+          </fieldset>
+          <fieldset>
+            <legend>Choices:</legend>
+            <label for="lang">favourite language</label>
+            <input type="checkbox" id="lang" name="programing language" value="java">java
+            <input type="checkbox" id="lang" name="programming language" value="javascript">javascript
+            <input type="checkbox" id="lang" name="programming language" value="python">python
+            <input type="checkbox" id="lang" name="programming language" value="c++" disabled>C++
+            <br>
+
+          <label for="sport">sport</label>
+
+          <select name="sport" id="sports" multiple size="2">
+            <option value="">---select---</option>
+            <option value="cricket">Cricket</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="hockey">Hockey</option>
+          </select>
+          <br><br>
+          <label for="favourite food">Favourite food</label>
+          <select name="food" id="food">
+            <option value="select">---Select---</option>
+            <optgroup label="veg">
+                <option value="pizza">Pizza</option>
+                <option value="burger">Burger</option>
+                <option value="pasta">Pasta</option>
+           </optgroup>
+           <optgroup label="non-veg" disabled>
+            <option value="chicken">Chicken</option>
+            <option value="fish">Fish</option>
+            <option value="mutton">Mutton</option>
+          </optgroup>
+          </select><br><br>
+
+          <label for="color">Favourite Color</label>
+          <input type="color" id="color" name="usercolor"><br><br>
+          <label for="range">Range</label>
+          <input type="range" id="range" name="userrange" min=5 max=100 step=5><br>
+          <label for="pet">Favourite pet</label>
+          <input list="pets" id="pet" name="userpet">
+          <datalist id="pets">
+         <option value="dog"></option>
+          <option value="cat"></option>
+          <option value="rabbit"></option>
+          <option value="hamster"></option>
+          <option value="fish"></option>
+          <option value="bird"></option>
+          
+          </datalist><br><br>
+          
+
+          
+          </fieldset>
+    </form>
+</body>
+</html>

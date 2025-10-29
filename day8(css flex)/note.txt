@@ -1,0 +1,43 @@
+CSS FLEX:
+
+FLEX (also known as flexbox) is a layout model that provides an efficient way to distribute space between items in a container even when their size is dynamic.
+     It helps create responsive designs without relying heavily on float or positioning properties
+
+     key Features of flexbox in CSS3:
+     1. flex container: the parent element that bholds the items
+     2. flex items: the child elements inside the flex container
+     3. main axis: the primary ax along which flex itemss are placed (horizontal by-default)
+     4. cross axis: the perpendicular axis to the main axis (vertical by default)
+
+     Note:
+     -----
+       -flex properties will app;y to direct children of the flex container
+       - flex properties will not apply to nested flex containers
+
+     basic syntax of flexbox
+             .container{
+                display: flex
+             }
+
+    flexbox properties (CSS3)
+    1. properties of the flex container
+           1. display: defines the flex container (flex or inline-flex)
+           2. flex-direction: sets the direction of the main axis (row, column, etc)
+           3. justify-content: aligns the flex item along the main axis (horizontal alignment)
+                             : justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+
+           4. align-items: aligns flex items along the cross axis (vertical alignment)
+                         :align-items: flex-start | flex-end | center | baseline | strech;
+                         :vertical alignment when flex-direction is a row
+                         :horizontal alignment when flex-direction is column
+            5. align-content:Aligns a multi-line flex container along the cross axis. (when flex wrap is set to wrap)
+            6. flex-wrap:specifies if items should wrapto the next line or not
+            7. Gap: sets the spacing between items
+                  :gap: row-gap | colun-gap
+
+      properties for flex-items
+      1. order: Controls the order of the items in the container
+      2. flex-grow: specifies how much the items should grow relative to others
+      3. flex-shrink: specifies how much the items should shrink relative to others
+      4. flex-basis: sets the initial size of the item
+      5. align-self: aligns the individual item independently of others.

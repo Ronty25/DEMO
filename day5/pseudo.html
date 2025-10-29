@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class and pseudo element</title>
+    <style>
+        p{
+            color: blue;
+            font-size: 20px;
+        }
+        p:hover{
+            color: red;
+            font-size: 25px;
+        }
+        /* div{
+            background-color: limegreen;
+            height: 400px;
+            width: 400px;
+        }
+        div:hover{
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
+        } */
+        a:link{
+            color: hotpink;
+            text-decoration: double;
+        }
+        a:active{
+            color: khaki;
+            text-decoration: line-through;
+        }
+        a:visited{
+            color: red;
+            text-decoration: dotted;
+        }
+         .l1::first-line{
+            color: greenyellow;
+            background-color: blue;
+        }
+        .l1::selection {
+            background-color: khaki;
+            font-size: 40px;
+            
+            
+        }
+        .l1::first-letter{
+            color: red;
+            font-size: 40px;
+        }
+        .l2::first-letter{
+            color: red;
+            font-size: 40px;
+        }
+       .l2::selection{
+            background-color: khaki;
+            font-size: 40px;
+        }
+    </style>
+    
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit nulla earum adipisci autem impedit nobis consequuntur quod doloremque, aliquam corrupti rerum iste quos! Nisi fugiat modi vitae doloremque excepturi.</p>
+    <div>
+        <p></p>
+    </div>
+    <a href="https://www.netflix.com/">Netflix</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+    <a href="https://www.irs.gov/">IRS</a>
+
+    <br>
+    <div class="l1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptates nostrum commodi laborum architecto consectetur eligendi. Rerum a voluptates suscipit fugit tempora natus quisquam, praesentium perferendis ad numquam, adipisci aspernatur doloremque aliquam alias accusantium expedita. Iure doloribus eveniet modi minus, eum explicabo! Est, quia odit ipsa beatae accusantium rem, consequuntur pariatur ex libero facilis impedit saepe iure. Dolor, consectetur labore, harum quos, aspernatur fugit nihil id recusandae reiciendis ea eos deserunt praesentium blanditiis quasi animi distinctio? Iure culpa deleniti voluptatibus aspernatur magni sit vel expedita, iusto, earum necessitatibus officiis quaerat. Enim iure laborum veniam amet ad vero corrupti officiis harum?</div>
+    <br>
+
+    <div class="l2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quod sunt autem sint distinctio dicta explicabo eius! Consequuntur necessitatibus quisquam quis deserunt soluta repudiandae cum, rem aperiam, dignissimos, perspiciatis eligendi.</div>
+</body>
+</html>

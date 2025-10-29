@@ -1,4 +1,4 @@
-web Technologies: the technology used to design and develop the web pages
+web Technologies: they are the technology used to design and develop the web pages
      1.html->hypertext markup language- structure of the web pages
      2.css->cascading style sheet- design/style of web pages
      3.js->javascript- logic/functionality of web pages

@@ -1,0 +1,91 @@
+form Tags:
+--------
+       1. <form> tag - used to add form in the web page
+          form attributes:
+             action- used to specify the action of the form
+             method- used to specify the method of the form(get/post--- default is get)
+
+       2. <input> tag - used to add input in the form
+           inpute attributes:
+             type - used to specify the type of the input
+                  - type can be text, password, email, number, date, time, url, search, tell, color, range, file, submit, reset, checkbox, radio, 
+             name - used to specify the name of the input
+             value - used to specify the value of the input
+             placeholder - used to specify the placeholder of the input
+             required - used to specify the required of the input
+             disabled - used to specify the disabled of the input
+             checked - used to specify the checked of the input
+             readonly- used to specify the readonly of the input
+             autofocus - used to specify the autofocus of the input
+             autocomplete - used to specify the autocomplete of the input
+             min - used to specify the min of the input
+             max - used to specify the max of the input
+             pattern used to specify the pattern of the input
+             step - used to specify the step of the input
+             size - used to specify the size of the input
+             list - used to specifythe list of the input
+
+       3. <label> tag - used to add label to the input
+       4. <select> tag - used to add a select in the form
+       5. <option> tag - used to add an option to the select
+       6. <textarea> tag - used to add a textarea in the form
+       7. <button> tag - used to add a button in the form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class VariableTask1{
+// global variable initialization
+      
+     static int intvalue; // 0
+     static string stringvalue; // null
+     static long longvalue; // 0
+     static double doublevalue; // 0.0
+     static char charvalue; // whitespace
+     static boolean booleanvalue; // false
+    
+   public static void main(string[]args){
+    //local value initialization is mandatory
+    string value= "hello";
+    system.out.println(value)
+    system.out.println("stringvalue + stringvalue")
+    system.out.println("longvalue + longvalue)
+    system.out.println("doublevalue + doublevalue")
+    system.out.println("charvalue + charvalue")
+    system.out.println("booleanvalue + booleanvalue")
+    
+   }
+}
+
+
+
+class VariableTask2{
+    int a;
+    public static void main (Strings []args){
+          int a; // decleration
+          a=10 // initialization
+       System.out.println(a); //10
+          a=20;// re-initialization
+       System.out.println(a);//30
+       //int a=30;- in the same scope we cant have duplicate variables
+    }
+
+}

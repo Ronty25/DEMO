@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid task 2</title>
+
+    <style>
+          .container{
+            
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            gap: 10px;
+          }
+           
+          .item{
+            background-color: orange;
+            border: 1px solid black;
+          }
+          .one{
+            grid-column-start: 1;
+            grid-column-end: 4;
+          }
+          .two{
+             grid-column-start: 4;
+             grid-column-end: 6;
+             grid-row-start: 1;
+             grid-row-end: 3;
+
+          }
+          .three{
+            grid-column: 1/4;
+            grid-row: 2/4;
+            
+          }
+          
+          .four{
+              grid-column-start: 4;
+              grid-column-end: 6;
+              grid-row-start: 3;
+              grid-row-end: 6;
+              /* grid-area: 3/4/6/6; row-start/column-start/row-end/column-end */
+
+          }
+        .five{
+            grid-area: 4/1/6/4;
+        }
+          
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one"></div>
+        <div class="item two"></div>
+        <div class="item three"></div>
+        <div class="item four"></div>
+        <div class="item five"></div>
+      
+
+    </div>
+</body>
+</html>
